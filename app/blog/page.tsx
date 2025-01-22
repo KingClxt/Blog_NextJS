@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { BLOGS } from "@/data/blog";
 import Blog from "@/components/Blog";
 
-const page = () => {
+const Page = () => {
 
   const [blogs, setBlogs] = useState(BLOGS)
 
@@ -30,4 +30,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
